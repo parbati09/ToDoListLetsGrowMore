@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: rgb(68, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.box{
+    width:600px;
+    height:500px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+.box-2{
+    background-color: rgb(113, 40, 113);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+h1{
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 47px;
+}
+
+#item{
+    width: 82%;
+    margin-left: 18px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+#item:focus{
+    background-color: rgb(234, 234, 27);
+}
+
+#item2{
+    width:12%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(63, 217, 63);
+}
+#item2:hover{
+    background-color: rgb(113, 43, 218);
+}
+
+
+
+#to-do-box{
+    margin-top: 20px;
+    list-style: none;
+    /* margin-left: 10px; */
+    /* font-size: 16px; */
+}
+
+#to-do-box li{
+    position: relative;
+    background-color: blue;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: justify;
+}
+#to-do-box li:hover{
+    background-color: rgb(231, 200, 162);
+}
+
+#to-do-box li i{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+
+.done{
+    text-decoration: line-through;
+    color:rgb(194, 49, 100);
+    background-color: rgb(28, 110, 187) !important;
+}
